@@ -36,4 +36,3 @@ dynamic_card_generator(
 );
 
 
-
