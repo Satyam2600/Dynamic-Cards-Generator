@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,16 +7,23 @@
 }
 
 body {
-    display: flex;
+    
     
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: rgb(104, 86, 86);
+}
+.main-heading{
+    text-align:center;
+    color:white;
+    margin: 30px 0px;
+     font-family: "Atkinson Hyperlegible Next", serif;
 }
 
 .container {
     padding: 0px 60px;
     display:flex;
+    
 
 }
 
@@ -31,6 +37,8 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    font-family: "Roboto", serif;
 }
 
 .card-img {
